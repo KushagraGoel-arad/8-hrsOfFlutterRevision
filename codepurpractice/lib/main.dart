@@ -1,3 +1,4 @@
+import 'package:codepurpractice/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,15 +11,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    int days = 90;
+    
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Flutter practice day $days"),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
